@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GCP Demo</title>
+    <script src="/__/firebase/6.4.2/firebase-app.js"></script>
+    <script src="/__/firebase/6.4.2/firebase-auth.js"></script>
+    <script src="/__/firebase/6.4.2/firebase-firestore.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="message">
+      <h2>Profile</h2>
+      <table>
+        <tr>
+          <td>Student Email</td>
+          <td id="email"></td>
+        </tr>
+        <tr>
+        <td>Student Name</td>
+          <td><input id="name"></td>
+        </tr>
+        <tr>
+          <td>Student roll no</td>
+          <td><input id="roll"></td>
+        </tr>
+      </table>
+      <br><br>
+      <button id="saveProfile">Save profile</button>
+      <br><br>
+    </div>
+    <script src="demo.js"></script>
+  </body>
+</html>
